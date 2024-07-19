@@ -1,0 +1,11 @@
+# Exported from Render on 2024-07-19T15:18:58Z
+services:
+- type: web
+  name: bandwidth-hero-proxy
+  runtime: node
+  repo: https://github.com/ayastreb/bandwidth-hero-proxy
+  plan: free
+  region: oregon
+  buildCommand: npm install
+  startCommand: node server.js
+version: "1"
